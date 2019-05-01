@@ -1,0 +1,91 @@
+
+.App-container {
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-editor{
+  background-color: rgb(247, 0, 0);
+  height: 40vh;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.App-takeInput{
+  width: 50%;
+  border-radius: 4px 0 0px 4px;
+  margin-left: 120px;
+}
+
+
+
+
+.App-section-head{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 150px
+}
+
+.App-add-btn{
+  border-radius: 0px;
+  height: 48px;
+  float: right;
+  margin-top: -48px;
+  margin-right: 410px;
+  font-weight: bold;
+}
+
+.App-table-data,tr,td,th,thead,tbody{
+  border: 1px solid gray;
+}
+
+.App-table-data{
+  width: 90%;
+  margin: 0px auto;
+  border: 1px solid gray;
+}
+
+.App-edit-del{
+  padding: 0px;
+
+}
+
+.App-search-btn{
+  position: absolute;
+  border-radius: 0px;
+  background: #61dafb;
+  height: 48px;
+  margin-left: 806px;
+  font-weight: bold;
+  margin-top: -48px;
+}
+
+button.App-search-btn.btn.btn-primary {
+  position: absolute;
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
