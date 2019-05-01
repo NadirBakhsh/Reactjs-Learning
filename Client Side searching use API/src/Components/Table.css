@@ -1,0 +1,25 @@
+body {
+    font: normal medium/1.4 sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  th, td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+  }
+  tbody tr:nth-child(odd) {
+    background: #eee;
+  }
+
+  .searchingInput{
+    width: 100%;
+    height: 10vh;
+    background-color: blanchedalmond;
+  }
