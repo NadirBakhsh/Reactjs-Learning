@@ -1,0 +1,7 @@
+userName={} //string Value
+postTime={} //time number value in milli second
+describe={} // string value
+images={} // images url send string form in Array 
+likeCounter={} // in number
+commentCounter={} // in number
+likeCounterFun={this.likeCounter}// Create funtion and bind it pass in Props

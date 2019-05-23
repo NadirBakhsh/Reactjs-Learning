@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900i');
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  font-family: 'Lato', sans-serif;
+  background-color: #A89344;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 3vmin);
+  color: white;
+  letter-spacing: 2px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.col-sm-4 {
+  margin: 50px auto;
+}
+
+.LoginHeader{
+  background-color: #A89344;
+}
+
+.customBtn{
+  border-radius: 0px;
+}
+
+.navbar{
+  background-color: #c5aa6a;
+  font-weight: bold;
+}
+
+a.nav-link {
+  border-bottom: 1px solid;
+  font-weight: bold;
+  color: white;
+}
+
+.PostCol{
+  margin: 10px auto;
+}
+
+.imageSiz{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.userInfo{
+  line-height: 3px;
+  margin-left: 12px;
+  margin-top: 6px;
+}
+
+.userInfo p {
+  font-size: 11px;
+}
+
+.LikeCommentRow{
+ display: flex;
+ justify-content: space-around;
+ cursor: pointer;
+}
+
+.LikeComment {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.counterDiv{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageCollection{
+  border-top: 1px solid blanchedalmond;
+  padding-top: 5px;
+  width: 100%;
+ 
+}
+
+.postForm{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+
+
+
+
