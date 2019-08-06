@@ -4,13 +4,7 @@ import * as firebase from 'firebase'
 
 
 var firebaseConfig = {
-  apiKey: "AIzaSyCgtZ-oZ3H3S0_G8YwNGx3mLp0AiMXmH8I",
-  authDomain: "login-signup-add9b.firebaseapp.com",
-  databaseURL: "https://login-signup-add9b.firebaseio.com",
-  projectId: "login-signup-add9b",
-  storageBucket: "login-signup-add9b.appspot.com",
-  messagingSenderId: "968667312495",
-  appId: "1:968667312495:web:c447c10bb675ca00"
+
 };
 
 // Initialize Firebase
