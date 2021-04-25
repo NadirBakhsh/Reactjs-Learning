@@ -3,13 +3,7 @@ import 'firebase/firestore'
 import { promises } from 'dns';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyCCh3DKeWxDvfPr0SbHPl1jPwia9sHlDp8",
-  authDomain: "react-chat-6952e.firebaseapp.com",
-  databaseURL: "https://react-chat-6952e.firebaseio.com",
-  projectId: "react-chat-6952e",
-  storageBucket: "react-chat-6952e.appspot.com",
-  messagingSenderId: "803815427866",
-  appId: "1:803815427866:web:284a259de95aa288"
+  
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
